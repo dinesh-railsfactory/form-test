@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<form action="http://slf-web-staging.herokuapp.com/api/form/0ebc2d89-c0d7-54ba-aa78-836514b56ceb/form-response" method="post">
+<center>
+  <h1> Multi-part form </h1>
+  </center>
+<form action="http://slf-web-staging.herokuapp.com/api/form/f8865b62-45c7-556b-8101-7bf03a34d6cf/form-response" method="post">
   First name:<br>
   <input type="text" name="firstname" value="Mickey">
   <br>
   Last name:<br>
   <input type="text" name="lastname" value="Mouse">
   <br><br>
+  Select a Car Model:<br>
   <select name="carlist" form="carform">
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
   <option value="opel">Opel</option>
   <option value="audi">Audi</option>
   </select>
+  <br><br>
+  Upload a Pic:
+  <br>
+  <input type="file" name="fileToUpload" id="fileToUpload">
   <br><br>
   <input type="submit" value="Submit">
  
